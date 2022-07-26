@@ -20,7 +20,7 @@ preloadImages('.grid__item-img').then( _ => {
 		requestAnimationFrame(scrollFn);
 	};
 	requestAnimationFrame(scrollFn);
-	  
+
 	gridItems.forEach(item => {
 		
 		const image = item.querySelector('.grid__item-img');
